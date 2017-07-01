@@ -1,0 +1,57 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;text-message-directions&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../helpfulowl" />
+      <root url="file://$PROJECT_DIR$/../../../gmailExample" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../cloud.google.com" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../streetSweep" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../githubscannerOld" />
+      <root url="file://$PROJECT_DIR$/../../../test" />
+      <root url="file://$PROJECT_DIR$/../../../githubscanner" />
+      <root url="file://$PROJECT_DIR$/../../../emojis" />
+      <root url="file://$PROJECT_DIR$/../../../bitbucket.org" />
+      <root url="file://$PROJECT_DIR$/../../../talkApp" />
+      <root url="file://$PROJECT_DIR$/../../../testGmailAPI" />
+      <root url="file://$PROJECT_DIR$/../../../googlemaps.github.io" />
+      <root url="file://$PROJECT_DIR$/../../../newGHScanner" />
+      <root url="file://$PROJECT_DIR$/../../../gitlab.xacte.com" />
+      <root url="file://$PROJECT_DIR$/../../../movemouse" />
+      <root url="file://$PROJECT_DIR$/../../../node-chain" />
+      <root url="file://$PROJECT_DIR$/../../../textdirections" />
+      <root url="file://$PROJECT_DIR$/../../../nodechain" />
+      <root url="file://$PROJECT_DIR$/../../../xbtce" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../helpfulowl" />
+      <root url="file://$PROJECT_DIR$/../../../gmailExample" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../cloud.google.com" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../streetSweep" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../githubscannerOld" />
+      <root url="file://$PROJECT_DIR$/../../../test" />
+      <root url="file://$PROJECT_DIR$/../../../githubscanner" />
+      <root url="file://$PROJECT_DIR$/../../../emojis" />
+      <root url="file://$PROJECT_DIR$/../../../bitbucket.org" />
+      <root url="file://$PROJECT_DIR$/../../../talkApp" />
+      <root url="file://$PROJECT_DIR$/../../../testGmailAPI" />
+      <root url="file://$PROJECT_DIR$/../../../googlemaps.github.io" />
+      <root url="file://$PROJECT_DIR$/../../../newGHScanner" />
+      <root url="file://$PROJECT_DIR$/../../../gitlab.xacte.com" />
+      <root url="file://$PROJECT_DIR$/../../../movemouse" />
+      <root url="file://$PROJECT_DIR$/../../../node-chain" />
+      <root url="file://$PROJECT_DIR$/../../../textdirections" />
+      <root url="file://$PROJECT_DIR$/../../../nodechain" />
+      <root url="file://$PROJECT_DIR$/../../../xbtce" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

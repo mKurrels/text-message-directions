@@ -23,6 +23,7 @@ import (
 var (
 	twilioID        string
 	twilioAuthToken string
+	port = os.Getenv("PORT")
 )
 
 type query struct {
@@ -93,7 +94,7 @@ func main() {
 		log.Fatal("TWILIO_AUTH_TOKEN environment variable not set")
 	}
 
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":" + port, nil))
 }
 
 func directionsHandler(w http.ResponseWriter, r *http.Request) {
