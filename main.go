@@ -23,7 +23,8 @@ import (
 var (
 	twilioID        string
 	twilioAuthToken string
-	port = os.Getenv("PORT")
+	mapsAPIKey      string
+	port            = os.Getenv("PORT")
 )
 
 type query struct {
@@ -86,15 +87,21 @@ func main() {
 	log.Println("Magic happening on port " + "8080")
 
 	twilioID = os.Getenv("TWILIO_ID")
-	twilioAuthToken = os.Getenv("TWILIO_AUTH_TOKEN")
 	if twilioID == "" {
 		log.Fatal("TWILIO_ID environment variable not set")
 	}
+
+	twilioAuthToken = os.Getenv("TWILIO_AUTH_TOKEN")
 	if twilioAuthToken == "" {
 		log.Fatal("TWILIO_AUTH_TOKEN environment variable not set")
 	}
 
-	log.Fatal(http.ListenAndServe(":" + port, nil))
+	mapsAPIKey = os.Getenv("MAP_API_KEY")
+	if mapsAPIKey == "" {
+		log.Fatal("MAP_API_KEY environment variable not set")
+	}
+
+	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
 func directionsHandler(w http.ResponseWriter, r *http.Request) {
